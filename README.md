@@ -19,7 +19,7 @@ draw_h是函数，用于给Matlab提供美观且可以很方便自定义的绘�
 ## draw_test介绍
 配色库有了，如何使用呢？
 在调用了draw_h以后，得到5*3的矩阵，**这里令其为color**，这个矩阵每行三个元素，即代表一个颜色的RGB，在绘制图像以后，加上语句：
-···MATLAB
+```MATLAB
 colororder(color);
 ```
 即可。
